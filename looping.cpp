@@ -70,3 +70,7 @@ void tampilHasilFibonacci() {
         cout << ">> Hasil: " << angka << " TIDAK TERMASUK dalam deret Fibonacci." << endl;
     }
 }
+
+int main() {
+    pilihan = -1;
+}
