@@ -21,3 +21,7 @@ void inputAngka() {
     cout << "Masukkan angka yang ingin dicek: ";
     cin >> angka;
 }
+
+bool isPrima(int n) {
+    
+}
