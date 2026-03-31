@@ -56,10 +56,6 @@ bool isFibonacci(int n) {
 }
 
 void tampilHasilPrima() {
-     if (isFibonacci(angka)) {
-        cout << ">> Hasil: " << angka << " TERMASUK dalam deret Fibonacci." << endl;
-    } else {
-        cout << ">> Hasil: " << angka << " TIDAK TERMASUK dalam deret Fibonacci." << endl;
-    }
+
 }
 
