@@ -54,3 +54,7 @@ bool isFibonacci(int n) {
 
     return (a == n); 
 }
+
+void tampilHasilPrima() {
+    
+}
