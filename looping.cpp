@@ -39,5 +39,7 @@ bool isPrima(int n) {
 }
 
 bool isFibonacci(int n) {
-    
+    if (n < 0) {
+        return false;
+    }
 }
