@@ -17,3 +17,6 @@ void tampilMenu() {
 
 }
 
+void inputAngka() {
+    
+}
