@@ -73,4 +73,31 @@ void tampilHasilFibonacci() {
 
 int main() {
     pilihan = -1;
+
+    while (pilihan != 0) {
+        tampilMenu(); 
+        
+        switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilHasilPrima();
+                break;
+                
+            case 2:
+                inputAngka();
+                tampilHasilFibonacci();
+                break;
+                
+            case 0:
+                cout << "\nKeluar dari program. Terima kasih!" << endl;
+                break;
+                
+            default:
+               
+                cout << "\nPeringatan: Pilihan tidak valid! Silakan masukkan 0, 1, atau 2." << endl;
+                break;
+        }
+    }
+    
+    return 0;
 }
