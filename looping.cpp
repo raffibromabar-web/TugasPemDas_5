@@ -35,4 +35,5 @@ bool isPrima(int n) {
         }
         i++;
     }
+    return true;
 }
